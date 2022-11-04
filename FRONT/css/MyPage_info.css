@@ -1,0 +1,74 @@
+.nav-bar {
+    width: 1920px;
+    height: 250px;
+}
+.logo {
+    position: relative;
+    width: 430px;
+    height: 100px;
+    left: 80px;
+    top: 60px;
+}
+.logo-image {
+    left: 80px;
+    top: 60px;
+}
+.logo-title {
+    color: #396cfd;
+    position: relative;
+    display: inline;
+    font-size: 48pt;
+    top: -30px;
+}
+.switch-page {
+    position: relative;
+    width: 320px;
+    top: 100px;
+    left: 1465px;
+}
+.switch-notice {
+    float: left;
+    margin-left: 10px;
+    background-color: #396cfd;
+    width: 130px;
+    height: 50px;
+    border: none;
+    border-radius: 10px 10px 0 0;
+    color: white;
+    font-size: 14pt;
+}
+.switch-info {
+    float: left;
+    margin-left: 10px;
+    background-color:#ceccce;
+    width: 130px;
+    height: 50px;
+    border: none;
+    border-radius: 10px 10px 0 0;
+    color: black;
+    font-size: 14pt;
+}
+
+
+
+.division-line1 {
+    position: relative;
+    top: 150px;
+    width: 1920px;
+    height: 4px;
+    background-color: #396cfd;
+}
+.division-line2 {
+    position: absolute;
+    margin-left: 180px;
+    width: 4px;
+    height: 830px;
+    background-color: #396cfd;
+}
+.division-line3 {
+    position: absolute;
+    margin-left: 1740px;
+    width: 4px;
+    height: 830px;
+    background-color: #396cfd;
+}
