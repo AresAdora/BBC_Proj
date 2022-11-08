@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/FRONT/css/Pboard-view.css">
+    <title>PhotoBoard</title>
+</head>
+<body>
+    <div class="nav-bar">
+        <div class="logo">
+            <img class="logo-image" src="/image/로고아이콘.png"/>
+            <h1 class="logo-title">Photoble</h1>
+        </div>
+        <div class="switch-page">
+            <button class="notice" onclick="location.href='MyPage_notice.html'">마이페이지</button>
+            <button class="logout" onClick="location.href='login.html'">로그아웃</button>
+        </div>
+    </div>
+    <div class="Main">
+        <div class="division-line1"></div>
+        <div class="division-line2"></div>
+
+        <div class="content">
+            <header>
+                <h1 class="board-title">겨울 사진</h1>
+                <div class="user-info">
+                    <h3 class="user-name">yoon321</h3>
+                    <h3 class="side"> | </h3>
+                    <h3 class="user-date">2019.08.17</h3>
+                </div>
+                <div class="comment">
+                    <img class="comment-icon" src="/image/댓글 아이콘.png"/>
+                    <h3 class="comment-cnt">11</h3>
+                </div>
+            </header>
+
+            <div class="line"></div>
+
+            <img class="Main-img" src="/image/겨울 이미지.png"/>
+
+            <footer>
+                <div class="comment2">
+                    <img class="comment-icon2" src="/image/댓글 아이콘.png"/>
+                    <h3 class="comment-cnt2">11</h3>
+                </div>
+                <div class="user-comment">
+                    <textarea class="user-comment-input"></textarea>
+                    <div class="user-comment-admit"></div>
+                </div>
+                <div class="another-user-comment">
+                    <div class="another-user-comment-box">
+                        <div class="another-user-name"></div>
+                        <div class="another-user-date"></div>
+                    </div>
+                    <h3 class="another-user-comment-infos"></h3>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

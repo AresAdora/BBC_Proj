@@ -1,0 +1,97 @@
+.nav-bar {
+    width: 1920px;
+    height: 200px;
+    background: #396cfd;
+}
+.logo {
+    position: relative;
+    width: 430px;
+    height: 100px;
+    left: 80px;
+    top: 60px;
+}
+.logo-image {
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    left: 80px;
+    top: 60px;
+}
+.logo-title {
+    color: white;
+    position: relative;
+    display: inline;
+    font-size: 48pt;
+    top: -30px;
+}
+.switch-page {
+    position: absolute;
+    left: 1630px;
+    top: 60px;
+    width: 210px;
+    height: 50px;
+    text-align: center;
+}
+.notice {
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color: #396cfd;
+    color: white;
+    font-size: 12pt;
+    font-weight: 600;
+}
+.logout {
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color: #396cfd;
+    color: white;
+    font-size: 12pt;
+    font-weight: 600;
+}
+
+
+.Main {
+    width: 1920px;
+    height: 880px;
+}
+.division-line1 {
+    position: absolute;
+    margin-left: 460px;
+    width: 4px;
+    height: 830px;
+    background-color: #396cfd;
+}
+.division-line2 {
+    position: absolute;
+    margin-left: 1460px;
+    width: 4px;
+    height: 830px;
+    background-color: #396cfd;
+}
+
+
+.content {
+    position: absolute;
+    width: 1920px;
+    height: 880px;
+}
+header {
+    position: absolute;
+    background-color:antiquewhite;
+    width: 1000px;
+    height: 135px;
+    left: 460px;
+}
+.board-title {
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 30pt;
+}
+
+
+.user-info {
+    position: absolute;
+    height: 30px;
+    background-color: green;
+}
