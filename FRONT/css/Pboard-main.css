@@ -259,8 +259,8 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
-  height: 100vh;
+  overflow: auto;
+  height: 100%;
   font-family: "Roboto", sans-serif;
   transition: 0.25s;
 }
@@ -277,16 +277,15 @@ body.dark {
 .Main {
     position: absolute;
     width: 1920px;
-    height: 100%;
-    top: 250px;
 }
 .content {
-    position: absolute;
+    display: flex;
+    margin-top: 50px;
+    position:relative;
     list-style: none;
     width: 1200px;
     height: 400px;
-    left: 360px;
-    margin-top: 50px;
+    left: 320px;
     border: #396cfd solid 4px;
     border-radius: 20px 20px 20px 20px;
 }
