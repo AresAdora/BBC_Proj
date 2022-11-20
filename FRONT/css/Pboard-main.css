@@ -303,6 +303,12 @@ body.dark {
     color: #396cfd;
     font-weight: 900;
 }
+.label {
+  color: white;
+  font-size: 16px;
+  font-weight: 900;
+  text-align: center;
+}
 .user-name {
     display: inline;
     position: absolute;

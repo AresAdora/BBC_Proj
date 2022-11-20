@@ -198,7 +198,6 @@ body #user-button:hover .u-icons, body #user-button:focus-within .u-icons {
   width: 300% !important;
   height: 300% !important;
 }
-
 body {
   display: flex;
   flex-direction: row;
