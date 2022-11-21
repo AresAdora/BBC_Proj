@@ -256,6 +256,7 @@ body #user-button:hover .u-icons, body #user-button:focus-within .u-icons {
 }
 
 body {
+  background-color: white;
   flex-direction: row;
   justify-content: center;
   align-items: center;
