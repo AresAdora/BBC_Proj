@@ -8,7 +8,63 @@
     <title>CloudMain</title>
 </head>
 <body>
-    <div class="nav-bar"></div>
-    <div class="Main"></div>
+    <!--넷바-->
+    <div class="nav-bar">
+        <div class="logo">
+            <img class="logo-image" src="/image/로고아이콘.png"/>
+            <h1 class="logo-title">Photoble</h1>
+        </div>
+        <div class="switch-page">
+            <button class="notice" onclick="location.href='MyPage_info.html'">마이페이지</button>
+            <span class="division-btn">|</span>
+            <button class="logout" onClick="location.href='login.html'">로그아웃</button>
+        </div>
+        <div class="search-bar">
+         <form>
+            <img class="search-img" src="/image/검색 아이콘.png">
+         </form>
+            <input class="search-input">
+        </div>
+        <div class="slide-btn">
+            <div class="go-notice" onclick="location.href='Pboard-main.html'">
+               <img class="go-notice-icon" src="/image/notice2.png">
+            </div>
+            <div class="go-cloud" onclick="location.href='Cloud_main.html'">
+               <img class="go-cloud-icon" src="/image/cloud1.png">
+            </div>
+        </div>
+        <img class="upload-btn" src="/image/upload.png">
+    </div>
+    <div class="Main">
+        <form class="cloud">
+            <div class="cloud-group">
+                <div class="division-line"></div>
+                <div class="cloud-date">오늘</div>
+                <div class="cloud-img-group">
+                    <img class="cloud-img" src="/Pboard-cloud/p1.png">
+                    <img class="cloud-img" src="/Pboard-cloud/p2.png">
+                    <img class="cloud-img" src="/Pboard-cloud/p3.png">
+                    <img class="cloud-img" src="/Pboard-cloud/p4.png">
+                </div>
+            </div>
+            <div class="cloud-group">
+                <div class="division-line"></div>
+                <div class="cloud-date">9.15</div>
+                <div class="cloud-img-group">
+                    <img class="cloud-img" src="/Pboard-cloud/p5.png">
+                    <img class="cloud-img" src="/Pboard-cloud/p6.png">
+                    <img class="cloud-img" src="/Pboard-cloud/p7.png">
+                    <img class="cloud-img" src="/Pboard-cloud/p8.png">
+                    <img class="cloud-img" src="/Pboard-cloud/p9.png">
+                    <img class="cloud-img" src="/Pboard-cloud/p10.png">
+                    <img class="cloud-img" src="/Pboard-cloud/p11.png">
+                    <img class="cloud-img" src="/Pboard-cloud/p12.png">
+                    <img class="cloud-img" src="/Pboard-cloud/p13.png">
+                    <img class="cloud-img" src="/Pboard-cloud/p14.png">
+                </div>
+            </div>
+            <div class="cloud-group"></div>
+        </form>
+    </div>
 </body>
 </html>
