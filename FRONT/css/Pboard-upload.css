@@ -115,15 +115,16 @@ body {
 }
 
 .check-box {
-    display: flex;
+    display: inline;
     position: absolute;
     top: 0px;
     width: 30px;
     height: 30px;
-    margin-left: 130px;
+    margin-left: -45px;
     margin-top: 10px;
 }
 .image-box {
+    background-color: green;
     display: inline;
     box-sizing: border-box;
     width: 170px;
