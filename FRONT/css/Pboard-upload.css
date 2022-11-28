@@ -86,19 +86,51 @@ body {
 }
 
 .title {
-    display: inline;
     box-sizing: border-box;
-    position: absolute;
-    display: inline;
+    position: relative;
+    display: block;
     border: #396cfd solid 4px;
     border-radius: 15px 15px 15px 15px;
     width: 800px;
     height: 80px;
-    margin-left: 600px;
-    margin-top: 60px;
     font-size: 24pt;
     font-weight: 900;
+    margin-top: 30px;
 }
+.label-title {
+    border-radius: 25px 25px 25px 25px;
+    border-style: solid white 2px;
+    background-color: #396cfd;
+    color: white;
+    display: block;
+    margin-top: 30px;
+    font-size: 48px;
+    font-weight: 900;
+}
+.title-set {
+    position: absolute;
+    width: 800px;
+    height: 200px;
+    margin-left: 600px;
+    text-align: center;
+}
+.upload-btn {
+    text-align: center;
+    padding-top: 10px;
+    border: none;
+    border-radius: 25px 25px 25px;
+    background-color: #396cfd;
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    display: inline;
+    font-size: 16pt;
+    font-weight: 900;
+    color: white;
+    margin-left: 1500px;
+    margin-top: 140px;
+}
+
 
 .Main {
     overflow: visible;
@@ -120,7 +152,7 @@ body {
     overflow: visible;
     box-sizing: border-box; 
     width: 1300px;
-    margin-top: 200px;
+    margin-top: 250px;
     margin-left: 340px;
     height: 1000px;
     border: none;
