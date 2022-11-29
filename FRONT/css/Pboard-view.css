@@ -203,25 +203,10 @@ header {
     font-weight: 900;
 }
 
-
-.another-comment {
-    display: block;
-    width: 940px;
-    position: relative;
-    left: 490px;
-    margin-top: 20px;
-    margin-bottom: 50px;
-}
-ul {
-    list-style: none;
-    padding-left:0px;
-}
-.another-comment-list {
-    margin-top: 15px;
-    box-sizing: border-box;
-}
 .another-comment-box {
-    position: absolute;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 490px;
     box-sizing: border-box;
     width: 940px;
     height: 80px;
