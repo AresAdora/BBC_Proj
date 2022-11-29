@@ -9,6 +9,7 @@
     <title>PhotoBoard</title>
 </head>
 <body>
+    
     <!-- 넷바 -->
     <div class="nav-bar" onclick="location.href='Pboard-main.html'">
         <div class="logo">
@@ -23,9 +24,10 @@
     <!-- 메인 콘텐츠 -->
     <div class="Main">
         <!-- 구분선 -->
-        <div class="division-line1"></div>
-        <div class="division-line2"></div>
-
+        <!--
+            <div class="division-line1"></div>
+            <div class="division-line2"></div>
+        -->
         <div class="content">
             <header>
                 <!-- 내 게시글 정보 -->
@@ -43,41 +45,48 @@
             </header>
 
             <!-- 이미지 위에 선 -->
-            <div class="line"></div>
+            <!-- 
+                <div class="line"></div>
+            -->
 
             <!-- 이미지 -->
-            <img class="Main-img" src="/image/겨울 이미지.png"/>
-
-            <footer>
-                <!-- 내 게시글 댓글 수 & 아이콘 -->
-                <div class="comment2">
-                    <img class="comment-icon2" src="/image/댓글 아이콘.png"/>
-                    <h3 class="comment-cnt2">댓글 11개</h3>
-                </div>
-
-                <!-- 내 댓글 작성 -->
-                <div class="user-comment">
-                    <input type="text" class="user-comment-input">
-                    <input type="submit" value="등록" class="user-comment-admit">
-                </div>
-
-                <!-- 다른유저 댓글 -->
-                <ul class="another-comment">
-                    <li class="another-comment-list">
-                        <div class="another-comment-box">
-                            <div class="another-user-info">
-                                <h3 class="another-user-name">yoon321</h3>
-                                <div class="another-sub-info">
-                                    <input type="submit" value="삭제" class="remove">
-                                    <h3 class="another-user-date">2019.12.30</h3>
-                                </div>
-                            </div>
-                            <div class="another-comment-text">겨울에 다녀옴</div>>
-                        </div>
-                    </li>
-                </ul>
-            </footer>
         </div>
+        <div class="Main-image-box">
+            <img class="Main-img" src="/image/겨울 이미지.png"/>
+            <img class="Main-img" src="/image/겨울 이미지.png"/>
+            <img class="Main-img" src="/image/겨울 이미지.png"/>
+            <img class="Main-img" src="/image/겨울 이미지.png"/>
+        </div>
+
+        <footer>
+            <!-- 내 게시글 댓글 수 & 아이콘 -->
+            <div class="comment2">
+                <img class="comment-icon2" src="/image/댓글 아이콘.png"/>
+                <h3 class="comment-cnt2">댓글 11개</h3>
+            </div>
+
+            <!-- 내 댓글 작성 -->
+            <div class="user-comment">
+                <input type="text" class="user-comment-input">
+                <input type="submit" value="등록" class="user-comment-admit">
+            </div>
+
+            <!-- 다른유저 댓글 -->
+            <ul class="another-comment">
+                <li class="another-comment-list">
+                    <div class="another-comment-box">
+                        <div class="another-user-info">
+                            <h3 class="another-user-name">yoon321</h3>
+                            <div class="another-sub-info">
+                                <input type="submit" value="삭제" class="remove">
+                                <h3 class="another-user-date">2019.12.30</h3>
+                            </div>
+                        </div>
+                        <div class="another-comment-text">겨울에 다녀옴</div>>
+                    </div>
+                </li>
+            </ul>
+        </footer>
     </div>
 </body>
 </html>
