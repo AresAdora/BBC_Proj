@@ -1,3 +1,7 @@
+body {
+  margin: 0px;
+  background-color: white;
+}
 .nav-bar {
     width: 1920px;
     height: 250px;

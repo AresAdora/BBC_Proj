@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/FRONT/css/Cloud-view.css">
+    <title>CloudUpload</title>
+</head>
+<body>
+    <!--넷바-->
+    <div class="nav-bar">
+        <div class="logo" onclick="location.href='Cloud_main.html'">
+            <img class="logo-image" src="/image/로고아이콘.png"/>
+            <h1 class="logo-title">Photoble</h1>
+        </div>
+        <div class="switch-page">
+            <button class="notice" onclick="location.href='MyPage_info.html'">마이페이지</button>
+            <span class="division-btn">|</span>
+            <button class="logout" onClick="location.href='login.html'">로그아웃</button>
+        </div>
+    </div>
+    <!--메인컨텐츠-->
+    <div class="Main">
+        <div class="division-line1"></div> <!--구분선1-->
+        <div class="division-line2"></div> <!--구분선2-->
+        <input class="tag"> <!--태그-->
+        <div class="image-group">
+            <img class="image" src="/image/lake.png">
+            <input class="detail-tag"> <!--상세태그-->
+        </div>
+        <button class="add-btn">+</button>
+        <div class="btn-group">
+            <button class="fix-btn">수정</button>
+            <button class="delete-btn">삭제</button>
+            <button class="cancel-btn" onclick="location.href='Cloud_main.html'">취소</button>
+        </div>
+    </div>
+</body>
+</html>
