@@ -61,6 +61,10 @@ body {
     font-size: 12pt;
     font-weight: 600;
 }
+.search-btn {
+  border: none;
+  border-radius: 25px 25px 25px 25px;
+}
 .search-bar {
   background-color: white;
   position: absolute;
